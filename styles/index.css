@@ -13,6 +13,7 @@ header{
     background-image: url("../images/banner/banner1.png");
     background-size: cover;
    padding: 200px 300px;
+   margin-bottom: 140px;
 }
 header>.banner{
     text-align: right ;
@@ -20,7 +21,6 @@ header>.banner{
     position: relative;
     left: 100px;
     top: 30px;
-    
 }
 .banner > h2{
     font-size: 60px;
@@ -32,3 +32,31 @@ header>.banner{
     color: #444343;
     margin-bottom: 25px;
 }
+
+/* failure part */
+.failure{
+    display: flex;
+    align-items: center;
+    gap: 150px;
+    margin: 120px;
+}
+.failure-img>img{
+    height: 600px;
+    width: 500px;
+}
+.failure-title{
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 35px;
+}
+.failure-description{
+    font-size: 18px;
+    color: #444343;
+    margin-bottom: 35px;
+}
+.failure li{
+    list-style: none;
+    margin-bottom: 10px;
+    color: #444343;
+}
+/* my plans part */
