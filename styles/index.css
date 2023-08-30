@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+}
+.btn-primary{
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background: #F15B22;;
+}
+/* banner */
+header{
+    background-image: url("../images/banner/banner1.png");
+    background-size: cover;
+   padding: 200px 300px;
+}
+header>.banner{
+    text-align: right ;
+    padding-left: 500px; 
+    position: relative;
+    left: 100px;
+    top: 30px;
+    
+}
+.banner > h2{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.banner>p{
+    font-size: 19px;
+    color: #444343;
+    margin-bottom: 25px;
+}
